@@ -67,9 +67,9 @@ def isInteger(i):
 
 def isBoolean(i):
 	match i:
-		case "True" | "true":
+		case "True" | "true" | "Yes" | "yes":
 			return True
-		case "False" | "false":
+		case "False" | "false" | "No" | "no":
 			return False
 		case _ :
 			return None
